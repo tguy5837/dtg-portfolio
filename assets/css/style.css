@@ -71,7 +71,8 @@ header nav ul li a {
 
 /* about me */
 .about-me,
-.work {
+.work,
+.contact-me {
   display: flex;
   justify-content: center;
   margin: 25px;
@@ -80,7 +81,8 @@ header nav ul li a {
 }
 
 .about-me-title,
-.work-title {
+.work-title,
+.contact-me-title {
   width: 20%;
   padding-right: 20px;
   text-align: end;
@@ -88,11 +90,12 @@ header nav ul li a {
   font-weight: lighter;
 }
 
-.about-me-text {
+.about-me-text,
+.contact-me-text {
   width: 80%;
   padding-left: 30px;
   border-left: 1px solid var(--secondary-color);
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 .about-me-text div {
@@ -108,7 +111,7 @@ header nav ul li a {
   justify-content: space-between;
   width: 80%;
   border-left: 1px solid var(--secondary-color);
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
 .work {
@@ -118,9 +121,13 @@ header nav ul li a {
 
 .work-link {
   width: 100%;
-  margin: 2%;
+  margin: 5%;
   overflow: hidden;
-  border: 1px red solid;
+  /* border: 1px red solid; */
+}
+
+.work-link a {
+  text-decoration: none;
 }
 
 .hero-project {
@@ -145,7 +152,7 @@ header nav ul li a {
 }
 
 .work-text p {
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .work-links div {
@@ -155,47 +162,62 @@ header nav ul li a {
 .work-links div img {
   width: 100%;
   height: 100%;
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 
-/* @media
+/* contact me section */
 
-.about-me,
-.work {
-  margin: 25px;
-  line-height: 1.5;
-  display: flex;
-  justify-content: space-between;
+.contact-me-title {
+  font-size: 32px;
+}
+
+.contact-me-title h3 {
   color: var(--secondary-color);
 }
 
-.about-me-title {
-  width: 20%;
-  padding-right: 20px;
-  text-align: end;
-  font-size: 40px;
-  font-weight: lighter;
+.contact-me-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
 
-.about-me-text {
-  width: 80%;
-  padding-left: 30px;
-  border-left: 1px solid var(--secondary-color);
-  border: 1px red solid;
+.contact-me-text a {
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--secondary-color);
 }
 
---------
+/* .about-me,
+  .work { 
+    margin: 25px; 
+    line-height: 1.5; 
+    display: flex; 
+    justify-content: space-between; 
+    color: var(--secondary-color) ; 
+} 
+.about-me-title { 
+    width: 20%; 
+    padding-right: 20px; 
+    text-align: end; font-size: 
+    40px; font-weight: lighter; 
+} 
+.about-me-text { 
+    width: 80%; 
+    padding-left: 30px; 
+    border-left: 1px solid var(--secondary-color) ; 
+    border: 1px red solid; 
+} 
 
-.work-text {
-    position: absolute;
-    background-color: var(--secondary-color);
-    width: 100%;
-    line-height: 1.5;
-    padding: 5px 10px;
-    text-align: center;
-    color: var(--primary-color);
-}
+-------- 
 
-.work-link {
-    width: 45%;
-  } */
+.work-text { 
+    position: absolute; 
+    background-color: var(--secondary-color) ; 
+    width: 100%; 
+    line-height: 1.5; 
+    padding: 5px 10px; 
+    text-align: center; 
+    color: var(--primary-color) ; 
+} 
+.work-link { 
+    width: 45%; } */
