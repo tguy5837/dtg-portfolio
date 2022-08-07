@@ -17,15 +17,16 @@ body {
 
 header {
   margin: auto;
-  padding: 90px;
+  padding: 140px 90px 20px;
   width: 100%;
-  background-image: url(../images/earth.jpg);
+  background-image: url(../images/photo.JPG);
   background-size: cover;
   text-align: center;
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .header-box {
-  background-color: var(--primary-color);
+  background-color: rgba(69, 69, 69, 0.5);
   margin: 40px;
   padding: 15px;
   border-radius: 10px;
@@ -71,6 +72,96 @@ header nav ul li a {
 /* about me */
 .about-me,
 .work {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.about-me-title,
+.work-title {
+  width: 20%;
+  padding-right: 20px;
+  text-align: end;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.about-me-text {
+  width: 80%;
+  padding-left: 30px;
+  border-left: 1px solid var(--secondary-color);
+  border: 1px red solid;
+}
+
+.about-me-text div {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  width: 100%;
+}
+
+/* work */
+.work-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  border-left: 1px solid var(--secondary-color);
+  border: 1px red solid;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-link {
+  width: 100%;
+  margin: 2%;
+  overflow: hidden;
+  border: 1px red solid;
+}
+
+.hero-project {
+  width: 100%;
+  margin-top: 0;
+}
+
+.work-text {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  width: 100%;
+  line-height: 1.5;
+  padding: 5px 10px;
+  color: var(--primary-color);
+}
+
+.work-text h4 {
+  font-size: 55px;
+}
+
+.work-text p {
+  font-size: 45px;
+}
+
+.work-links div {
+  position: relative;
+}
+
+.work-links div img {
+  width: 100%;
+  height: 100%;
+  border: 1px red solid;
+}
+
+/* @media
+
+.about-me,
+.work {
   margin: 25px;
   line-height: 1.5;
   display: flex;
@@ -86,30 +177,25 @@ header nav ul li a {
   font-weight: lighter;
 }
 
-.about-me-text,
-.work-links {
+.about-me-text {
   width: 80%;
   padding-left: 30px;
   border-left: 1px solid var(--secondary-color);
+  border: 1px red solid;
 }
 
-/* work */
-.work {
-  display: flex;
-  justify-content: space-between;
-}
+--------
 
 .work-text {
-  position: absolute;
-  background-color: var(--primary-color);
-  width: 170px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  padding: 5px 10px;
-  text-align: right;
-  color: var(--tertiary-color);
+    position: absolute;
+    background-color: var(--secondary-color);
+    width: 100%;
+    line-height: 1.5;
+    padding: 5px 10px;
+    text-align: center;
+    color: var(--primary-color);
 }
 
-.work-links div img {
-  height: 250px;
-}
+.work-link {
+    width: 45%;
+  } */
