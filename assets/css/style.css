@@ -17,7 +17,7 @@ body {
 
 header {
   margin: auto;
-  padding: 140px 90px 20px;
+  padding: 25px 90px 220px;
   width: 100%;
   background-image: url(../images/photo.JPG);
   background-size: cover;
@@ -40,16 +40,17 @@ header img {
   width: 100%;
 }
 
-/* header title */
-header h1 {
-  font-size: 75px;
-}
-
 /* all header text */
 header a {
   text-decoration: none;
+  font-size: 32px;
   color: var(--secondary-color);
-  padding: 10px;
+  padding: 20px;
+}
+
+/* header title */
+header h1 a {
+  font-size: 75px;
 }
 
 /* header nav */
@@ -187,37 +188,52 @@ header nav ul li a {
   color: var(--secondary-color);
 }
 
-/* .about-me,
-  .work { 
-    margin: 25px; 
-    line-height: 1.5; 
-    display: flex; 
-    justify-content: space-between; 
-    color: var(--secondary-color) ; 
-} 
-.about-me-title { 
-    width: 20%; 
-    padding-right: 20px; 
-    text-align: end; font-size: 
-    40px; font-weight: lighter; 
-} 
-.about-me-text { 
-    width: 80%; 
-    padding-left: 30px; 
-    border-left: 1px solid var(--secondary-color) ; 
-    border: 1px red solid; 
-} 
+/* MEDIA QUERY FOR BIGGER PHONES AND TABLETS */
 
--------- 
+/* @media screen and (min-width: 500px) {
+  .about-me {
+    margin: 25px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-color);
+  }
+  .work {
+    margin: 25px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    color: var(--secondary-color);
+  }
 
-.work-text { 
-    position: absolute; 
-    background-color: var(--secondary-color) ; 
-    width: 100%; 
-    line-height: 1.5; 
-    padding: 5px 10px; 
-    text-align: center; 
-    color: var(--primary-color) ; 
-} 
-.work-link { 
-    width: 45%; } */
+  .about-me-title {
+    width: 20%;
+    padding-right: 20px;
+    text-align: end;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+
+  .about-me-text {
+    width: 80%;
+    padding-left: 30px;
+    border-left: 1px solid var(--secondary-color);
+    border: 1px red solid;
+  }
+
+  .work-text {
+    position: absolute;
+    background-color: var(--secondary-color);
+    line-height: 1.5;
+    padding: 5px 10px;
+    text-align: center;
+    color: var(--primary-color);
+  }
+
+  .work-link {
+    width: 45%;
+  }
+  .hero-link {
+    width: 100%;
+  }
+} */
