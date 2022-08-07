@@ -69,7 +69,8 @@ header nav ul li a {
 }
 
 /* about me */
-.about-me {
+.about-me,
+.work {
   margin: 25px;
   line-height: 1.5;
   display: flex;
@@ -77,8 +78,38 @@ header nav ul li a {
   color: var(--secondary-color);
 }
 
-.about-me-text {
+.about-me-title {
+  width: 20%;
+  padding-right: 20px;
+  text-align: end;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.about-me-text,
+.work-links {
   width: 80%;
   padding-left: 30px;
   border-left: 1px solid var(--secondary-color);
+}
+
+/* work */
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-text {
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 170px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  text-align: right;
+  color: var(--tertiary-color);
+}
+
+.work-links div img {
+  height: 250px;
 }
