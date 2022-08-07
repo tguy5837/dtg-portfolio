@@ -67,3 +67,18 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 25px;
 }
+
+/* about me */
+.about-me {
+  margin: 25px;
+  line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
+  color: var(--secondary-color);
+}
+
+.about-me-text {
+  width: 80%;
+  padding-left: 30px;
+  border-left: 1px solid var(--secondary-color);
+}
