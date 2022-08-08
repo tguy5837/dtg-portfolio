@@ -188,6 +188,12 @@ header nav ul li a {
   color: var(--secondary-color);
 }
 
+@media screen and (min-width: 500px) {
+  header a {
+    color: var(--tertiary-color);
+  }
+}
+
 /* MEDIA QUERY FOR BIGGER PHONES AND TABLETS */
 
 /* @media screen and (min-width: 500px) {
