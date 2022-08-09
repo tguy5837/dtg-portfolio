@@ -13,6 +13,9 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 header {
@@ -30,6 +33,7 @@ header {
   margin: 40px;
   padding: 15px;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 /* header image */
@@ -68,6 +72,7 @@ header nav ul {
 header nav ul li a {
   font-weight: lighter;
   font-size: 25px;
+  padding: 10px;
 }
 
 /* about me */
@@ -95,7 +100,7 @@ header nav ul li a {
 .contact-me-text {
   width: 80%;
   padding-left: 30px;
-  border-left: 1px solid var(--secondary-color);
+  border-left: 2px solid var(--secondary-color);
   /* border: 1px red solid; */
 }
 
@@ -124,7 +129,7 @@ header nav ul li a {
   width: 100%;
   margin: 5%;
   overflow: hidden;
-  /* border: 1px red solid; */
+  border: 1px solid var(--secondary-color);
 }
 
 .work-link a {
@@ -180,23 +185,18 @@ header nav ul li a {
   display: flex;
   justify-content: space-between;
   padding: 25px;
+  overflow: hidden;
 }
 
 .contact-me-text a {
   text-decoration: none;
-  font-size: 28px;
+  font-size: 1rem;
   color: var(--secondary-color);
-}
-
-@media screen and (min-width: 500px) {
-  header a {
-    color: var(--tertiary-color);
-  }
 }
 
 /* MEDIA QUERY FOR BIGGER PHONES AND TABLETS */
 
-/* @media screen and (min-width: 500px) {
+@media screen and (min-width: 700px) {
   .about-me {
     margin: 25px;
     line-height: 1.5;
@@ -224,7 +224,7 @@ header nav ul li a {
     width: 80%;
     padding-left: 30px;
     border-left: 1px solid var(--secondary-color);
-    border: 1px red solid;
+    /* border: 1px red solid; */
   }
 
   .work-text {
@@ -236,10 +236,18 @@ header nav ul li a {
     color: var(--primary-color);
   }
 
-  .work-link {
-    width: 45%;
+  .work-text h4 {
+    font-size: 32px;
   }
-  .hero-link {
+
+  .work-text p {
+    font-size: 28px;
+  }
+
+  .work-link {
+    width: 40%;
+  }
+  .hero-project {
     width: 100%;
   }
-} */
+}
