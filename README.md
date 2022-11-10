@@ -6,7 +6,7 @@ This page is intended to serve not only as a display of my best work but also a 
 
 The following photo displays the top portion of the portfolio:
 
-![portfolio photo](../dtg-portfolio/assets/images/readme-pic.jpg)
+![portfolio photo](/assets/images/readme-pic.jpg)
 
 ## Built With
 
